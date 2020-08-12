@@ -111,8 +111,6 @@ Car.prototype.drive = function(distance) {
 function Baby(name,age,toy) {
   Person.call(this,name,age);
   this.favoriteToy = toy;
-  this.name = name;
-  this.age = age;
 }
 
 Baby.prototype = Object.create(Person.prototype);
